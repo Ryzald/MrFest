@@ -10,10 +10,17 @@
     <link href="http://fonts.cdnfonts.com/css/alice-in-wonderland" rel="stylesheet" />
 
     <style>
+      #bg {
+        z-index: -1;
+        position: fixed;
+        margin-left: 0px;
+        width: 100%;
+        bottom: 0px;
+        top: 0px;
+        margin-top: -50px;
+        object-fit: cover;
+      }
       body {
-        background-image: url(image/backgroundArtboard\ 1@4x.png);
-        background-repeat: repeat;
-        background-size: auto;
         font-family: "Times New Roman", Times, serif;
       }
       .judul {
@@ -22,6 +29,7 @@
     </style>
   </head>
   <body>
+    <img id="bg" src="image/backgroundArtboard 1@4x.png" alt="" />
     <br /><br /><br />
     <!-- JUDUL -->
     <div class="judul text-light text-center">
